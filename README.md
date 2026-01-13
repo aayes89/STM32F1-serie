@@ -40,3 +40,11 @@
 - Entrada limpia a bootloader
 - ACK dentro de la ventana de Arduino
 - Funciona sorprendentemente bien en placas OEM.
+
+# Variante segura
+1. Genera el binario compilado desde Arduino IDE (<b>Ctrl+Alt+S</b>)
+2. Ir al directorio del binario (<b>Alt+Ctrl+K</b>)
+3. Descargar y abrir <b>mcuisp.exe</b> desde el repositorio.
+4. Configurar a <b>Reset@DTR Low (<-3V),ISP@RTS Low</b>
+5. Cargar binario (.hex) en la región <b>Code Line For Online ISP</b> y presionar en <b>Start ISP(P)</b>
+6. Presionar el botón <b>RST</b> en el módulo STM32 (<b>DX-SMART DX-PJ26-V1.1</b>) y esperar a que termine la grabación.
