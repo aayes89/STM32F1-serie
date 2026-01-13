@@ -1,4 +1,5 @@
-Para programar el módulo <img src="https://ae-pic-a1.aliexpress-media.com/kf/S6dc6eefaed6341769de2a81db9876c51h.jpg_960x960q75.jpg_.avif">
+
+<img width="960" height="487" alt="stm32" src="https://github.com/user-attachments/assets/d26631be-4611-4d64-9907-a7a9e042c476" />
 
 # Requisitos
 * Arduino IDE (2.3.5) o cualquier versión funciona.
